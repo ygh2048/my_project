@@ -1,0 +1,9 @@
+../plane/nclink.c:31:6:Pilot_Status_Tick	1
+../plane/nclink.c:51:6:Float2Byte	2
+../plane/nclink.c:83:6:Byte2Float	1
+../plane/nclink.c:198:6:NCLink_Data_Prase_Prepare	17
+../plane/nclink.c:251:6:NCLink_Data_Prase_Prepare_gh	11
+../plane/nclink.c:289:6:process_gh	5
+../plane/nclink.c:313:6:NCLink_Data_Prase_Process	29
+../plane/nclink.c:547:6:NCLink_GS_Send_RCData	2
+../plane/nclink.c:606:6:useget	1

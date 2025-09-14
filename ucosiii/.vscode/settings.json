@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "task.h": "c",
+        "includes.h": "c",
+        "mine.h": "c",
+        "arm_math.h": "c",
+        "gui.h": "c"
+    }
+}

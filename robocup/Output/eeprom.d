@@ -1,0 +1,13 @@
+.\output\eeprom.o: Libraries\driverlib\eeprom.c
+.\output\eeprom.o: D:\workapp\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdbool.h
+.\output\eeprom.o: D:\workapp\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\output\eeprom.o: .\Libraries\inc\hw_eeprom.h
+.\output\eeprom.o: .\Libraries\inc\hw_flash.h
+.\output\eeprom.o: .\Libraries\inc\hw_ints.h
+.\output\eeprom.o: .\Libraries\inc\hw_sysctl.h
+.\output\eeprom.o: .\Libraries\inc\hw_types.h
+.\output\eeprom.o: Libraries\driverlib\debug.h
+.\output\eeprom.o: Libraries\driverlib\flash.h
+.\output\eeprom.o: Libraries\driverlib\interrupt.h
+.\output\eeprom.o: Libraries\driverlib\sysctl.h
+.\output\eeprom.o: Libraries\driverlib\eeprom.h

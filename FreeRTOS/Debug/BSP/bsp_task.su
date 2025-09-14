@@ -1,0 +1,3 @@
+../BSP/bsp_task.c:19:6:defaulttask_uart	16	static
+../BSP/bsp_task.c:35:6:Task_Entity_Beep	8	static
+../BSP/bsp_task.c:71:6:Task_Entity_Key	32	static

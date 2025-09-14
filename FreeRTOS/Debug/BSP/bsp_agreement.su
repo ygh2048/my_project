@@ -1,0 +1,4 @@
+../BSP/bsp_agreement.c:18:6:unpack_process	24	static
+../BSP/bsp_agreement.c:36:6:unpack_process_gh	24	static
+../BSP/bsp_agreement.c:56:6:print3dpos	8	static
+../BSP/bsp_agreement.c:68:6:speaker_gh	56	static

@@ -1,0 +1,9 @@
+.\output\myiic.o: WP_Src\myiic.c
+.\output\myiic.o: D:\workapp\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\output\myiic.o: D:\workapp\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdbool.h
+.\output\myiic.o: .\Libraries\driverlib\I2C.h
+.\output\myiic.o: .\Libraries\inc\hw_memmap.h
+.\output\myiic.o: .\Libraries\driverlib\gpio.h
+.\output\myiic.o: .\Libraries\driverlib\pin_map.h
+.\output\myiic.o: WP_Src\myiic.h
+.\output\myiic.o: .\Libraries\driverlib\sysctl.h

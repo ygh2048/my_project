@@ -1,0 +1,9 @@
+.\output\mpu.o: Libraries\driverlib\mpu.c
+.\output\mpu.o: D:\workapp\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdbool.h
+.\output\mpu.o: D:\workapp\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\output\mpu.o: .\Libraries\inc\hw_ints.h
+.\output\mpu.o: .\Libraries\inc\hw_nvic.h
+.\output\mpu.o: .\Libraries\inc\hw_types.h
+.\output\mpu.o: Libraries\driverlib\debug.h
+.\output\mpu.o: Libraries\driverlib\interrupt.h
+.\output\mpu.o: Libraries\driverlib\mpu.h

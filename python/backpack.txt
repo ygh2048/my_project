@@ -1,0 +1,21 @@
+    console.log(response.result.toString())
+    let result=response.result.toString()
+    //let paramsInfo:number = this.userID
+    //let result_json = JSON.parse(response.result.toString())
+    if (result.includes('登录成功')) {
+      // 1. 先更新状态
+      //paramsInfo = (result_json as object)?.['userId'];
+      // 2. 直接跳转并传递最新值
+      router.pushUrl({
+        url: 'pages/Index',
+        /*
+        params: {
+          userID: paramsInfo, // 直接传递结构化对象
+          username: this.username
+        } as UserInfo
+        * */
+      });
+    }else {
+      this.errorMessage=response.result.toString()
+    }
+  }

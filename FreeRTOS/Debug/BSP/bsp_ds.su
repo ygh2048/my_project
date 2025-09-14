@@ -1,0 +1,5 @@
+../BSP/bsp_ds.c:28:6:data_to_array	8	static
+../BSP/bsp_ds.c:72:6:choose_s_pos	4	static
+../BSP/bsp_ds.c:153:5:choose_pos	4	static
+../BSP/bsp_ds.c:291:6:show	8	static
+../BSP/bsp_ds.c:310:5:check_array	16	static
