@@ -1,0 +1,10 @@
+..\..\output\mqttkit.o: ..\..\Drivers\BSP\ONENET\mqttkit.c
+..\..\output\mqttkit.o: ..\..\Drivers\./BSP/ONENET/mqttkit.h
+..\..\output\mqttkit.o: ..\..\Drivers\./BSP/ONENET/common.h
+..\..\output\mqttkit.o: D:\workapp\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\mqttkit.o: D:\workapp\keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\..\output\mqttkit.o: ..\..\Drivers\./BSP/ONENET/mem_pool.h
+..\..\output\mqttkit.o: D:\workapp\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\mqttkit.o: D:\workapp\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\mqttkit.o: D:\workapp\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\mqttkit.o: D:\workapp\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
