@@ -1,0 +1,10 @@
+.\obj\mqttkit.o: ..\HARDWARE\ONENET\mqttkit.c
+.\obj\mqttkit.o: ..\HARDWARE\ONENET\mqttkit.h
+.\obj\mqttkit.o: ..\HARDWARE\ONENET\common.h
+.\obj\mqttkit.o: D:\workapp\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\mqttkit.o: D:\workapp\keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\mqttkit.o: ..\HARDWARE\ONENET\mem_pool.h
+.\obj\mqttkit.o: D:\workapp\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\obj\mqttkit.o: D:\workapp\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\mqttkit.o: D:\workapp\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\mqttkit.o: D:\workapp\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
