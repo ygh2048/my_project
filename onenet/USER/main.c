@@ -262,11 +262,21 @@ int main(void)
     while (1)
     {
         /* ==================== 传感器数据采集 ==================== */
-        // 电压采样：ADC_CH0通道，乘以电压校准系数
-        voltage = adc_get_voltage(ADC_CH0) * APP_VOLTAGE_SCALE;
-        // 电流采样：通过分流电阻计算，单位转换为mA
-        current = (adc_get_voltage(ADC_CH1) / APP_SENSE_RESISTOR_OHMS) * 1000.0f * APP_CURRENT_SCALE;
-        // 功率计算：P = V * I
+        // 电源端电压采样：ADC_CH0通道，乘以电压校准系数
+        float supply_voltage = adc_get_voltage(ADC_CH0) * APP_VOLTAGE_SCALE;
+        // 负载端电压采样：ADC_CH1位于1 kΩ采样电阻之后
+        float load_voltage = adc_get_voltage(ADC_CH1) * APP_VOLTAGE_SCALE;
+        // 计算采样电阻上的压降，确保不会出现负值
+        float sense_drop = supply_voltage - load_voltage;
+        if (sense_drop < 0.0f)
+        {
+            sense_drop = 0.0f;
+        }
+        // 电流 = 压降 / 采样电阻；转换为mA并乘以校准系数
+        current = (sense_drop / APP_SENSE_RESISTOR_OHMS) * 1000.0f * APP_CURRENT_SCALE;
+        // 对外显示和存储使用负载端电压
+        voltage = load_voltage;
+        // 功率计算：P = V_load * I，单位mW
         power = voltage * current;
 
         // 重量检测：获取重量值并判断是否归还

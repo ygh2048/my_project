@@ -138,9 +138,17 @@ static void mem_pool_stat(void)
 }
 
 /* OneNET平台配置（您的设备信息） */
-#define PROID			"9M46J4XhAS"
-#define ACCESS_KEY		"HWGFn8Gzd5EXiZ+Rb1GtZ5M16bn3XfWrRWnJO9/x3Wk="
-#define DEVICE_NAME		"mytask"
+
+/*
+#define PROID            "55I7rm0QP0"
+#define ACCESS_KEY        "r32Dh0EhASMRjSevj0XN5fXJC7mZb72Hc+crYZ1PW3M="
+#define DEVICE_NAME        "task"
+
+*/
+#define PROID            "22Z1aSgRuA"
+#define ACCESS_KEY        "WRF7w2dB/z+TN9eTn+tJPV1joWnxOYFHzXejjV8rn+0="
+#define DEVICE_NAME        "monitor"
+
 /*  
 #define PROID			"9M46J4XhAS"
 #define ACCESS_KEY		"HWGFn8Gzd5EXiZ+Rb1GtZ5M16bn3XfWrRWnJO9/x3Wk="
